@@ -7,7 +7,75 @@
     <title>ToBoolist</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-    <h1>ciao</h1>
+<body class="debug">
+
+    <!-- logo e titolo su tutta la pagina -->
+    <header >
+        <img class="logo" src="img/Logo.png" alt="logo">
+        <h1 id="titolo">Toboolist</h1>
+
+    </header>
+
+
+    <!-- riquadro più piccolo dove mettere la lista -->
+    <main >
+<div class="centratura">
+        <!-- parte bottoni -->
+        <div class="container"> 
+            <input type="button" class="sfondoblu wwhite" value="Add Task">
+            <input type="button" class="wwhite" value="Add Section">
+        </div>
+        
+
+        <!-- sezione new task -->
+<section>
+    <h2> &#9660;New Task</h2>
+        <ul>
+            <li> 
+                <span class="spunta verde">&check;</span>Quarterly Newsletter <span class="appunto sfondoblu wwhite">Editorial</span>
+            </li>
+         
+        </ul>
+</section>
+        <!-- sezione today -->
+        <section>
+        <h2> &#9660;Today</h2>
+        <ul>
+            <li> 
+                <span class="spunta verde">&check;</span> Recruiting blog post <span class="appunto sfondoblu wwhite">Editorial</span>
+            </li>
+            <li> 
+                <span class="spunta verde">&check;</span> Mobile app launch <span class="appunto sfondoviola wwhite">Q1 Goals</span>
+            </li>
+            <li> 
+                <span class="spunta rossa">&Cross;</span>Interview John H. <span class="appunto sfondoverde wwhite">Recruiting</span>
+            </li>
+            <li> 
+                <span class="spunta verde">&check;</span> Summit update to mobile storefronts <span class="appunto sfondoarancio wwhite">Mobile</span>
+            </li>
+        </ul>
+    </section>
+        <!-- sezione upcoming -->
+
+        <section>
+            <h2> &#9660;Upcoming</h2>
+        <ul>
+            <li> 
+                <span class="spunta rossa">&cross;;</span> Schedule meeting with Alex 
+            </li>
+            <li> 
+                <span class="spunta verde">&check;</span> Homepage refresh <span class="appunto sfondofuchsia wwhite"> Website</span>
+            </li>
+            <li> 
+                <span class="spunta rossa">&Cross;</span>Onboard new Sales team members <span class="appunto sfondovchiaro wwhite">Sales</span>
+            </li>
+            <li> 
+                <span class="spunta verde">&check;</span> Summit update to mobile storefronts <span class="appunto sfondoblu wwhite">Editorial</span>
+            </li>
+        </ul>
+        </section>
+
+</div>
+    </main>
 </body>
 </html>
