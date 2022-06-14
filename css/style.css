@@ -10,15 +10,15 @@
 
 
 .debug *{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     padding: 15px;
 }
 
-.debug .container{
+/* .debug .container{
     border-color: blue;
   
     
-}
+} */
 
 .logo{
     vertical-align: middle;
@@ -33,7 +33,7 @@
 
 main{
    
-    background-color: gray;
+    background-color: lightgray;
 }
 
 .centratura{
